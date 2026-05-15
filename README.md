@@ -45,7 +45,15 @@ Praat tiene mayor precisión (sub-milisegundo, formantes) pero no genera feedbac
 - Búsqueda: `argmax`/`argmin` sobre segmentos para localizar el mejor/peor fragmento
 - PLN + bot: LLaMA 3.1 interpreta métricas numéricas → recomendaciones en lenguaje natural
 
-## Instalación
+## Referencias
+
+- Praat: Doing Phonetics by Computer — Paul Boersma & David Weenink
+- Whisper large-v3 — OpenAI
+- Groq API Documentation
+- librosa Audio Analysis Library
+- SciPy Signal Processing Documentation
+
+  
 ## Instalación
 
 ### 1. Clonar repositorio
