@@ -24,7 +24,7 @@ Pruebas con voz hablada en español: pitch medio 120-180 Hz (rango esperado 80-3
 ## Capturas del sistema
 
 ### Subida de audio
-![Upload](assets/upload-screen.png)
+![Upload](assets/upload-screen.png.png)
 
 ### Proceso de análisis
 ![Analysis](assets/analysis-screen.png)
