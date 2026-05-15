@@ -46,9 +46,55 @@ Praat tiene mayor precisión (sub-milisegundo, formantes) pero no genera feedbac
 - PLN + bot: LLaMA 3.1 interpreta métricas numéricas → recomendaciones en lenguaje natural
 
 ## Instalación
+## Instalación
+
+### 1. Clonar repositorio
+
+```bash
+git clone https://github.com/IsaHernandezPosada/voicelens-ai.git
+cd voicelens-ai
+```
+
+### 2. Crear entorno virtual (recomendado)
+
+```bash
+python -m venv .venv
+```
+
+### 3. Activar entorno virtual
+
+#### Windows (PowerShell)
+
+```powershell
+.venv\Scripts\Activate.ps1
+```
+
+#### Windows (CMD)
+
+```cmd
+.venv\Scripts\activate.bat
+```
+
+### 4. Instalar dependencias
+
 ```bash
 pip install fastapi uvicorn librosa numpy scipy groq python-multipart soundfile python-dotenv
-# Crear .env con: GROQ_API_KEY=tu_clave  (gratuita en console.groq.com)
+```
+
+### 5. Configurar API Key
+
+Crear archivo `.env`:
+
+```env
+GROQ_API_KEY=tu_clave
+```
+
+### 6. Ejecutar servidor
+
+```bash
 uvicorn main:app --reload
 ```
+
+### 7. Abrir interfaz
+
 Abrir `index.html` en el navegador.
